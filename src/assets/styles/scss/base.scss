@@ -1,0 +1,36 @@
+.page{
+    height: inherit;
+    background-color: $page-bg;
+    .root{
+        height: inherit; width: inherit;
+        .container{
+            //max-width: calc(1640px + 6vw + 24vmax); height: inherit;
+            max-width: 1820px;
+            margin: $m-center;
+            padding: calc(6px + 1vw) calc(12px + 1vw);
+        }
+        .header_container{padding: 0 calc(12px + 1vw);}
+        .wrapper{
+            display: grid; grid-template-rows: $header-height $main-height minmax($footer-height,auto);
+            height: inherit;
+            margin: $m-center;
+        }
+        .wrapper-redact{grid-template-columns: $main-height $redact-menu-weight; grid-template-rows: $fr;}
+    }
+}
+
+.header{
+    position: relative; z-index: 999;
+    background-color: $header-bg; box-shadow: $shadow; height: inherit;
+    &-body{
+    }
+}
+
+.footer{
+    &-body{
+        background-color: #040404;
+    }
+}
+
+.show{display: block;}
+.hiden{display: none;}

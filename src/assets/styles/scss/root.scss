@@ -1,0 +1,60 @@
+// COLORS
+
+    // GENERAL COLORS
+
+    $general-color: #0F0F0F;
+    $secondary-color: #C65F2C;
+    $additional-color: #FFFFFF;
+
+    // ADDITIONAL COLORS
+
+    $update-color: #8EC911;
+    $read-color: #7DEB6B;
+    $dark-light-color: #1A1A1D;
+
+    $feature-color: #599A18;
+    $improvement-color: #99AC27;
+    $wip-color: #238D34;
+    $fixed-color: #23538D;
+    $error-color: #A14F26;
+    $changelog-color: #131313;
+
+// HEADER | MAIN | FOOTER
+
+$page-bg: #0e0e0e;
+$header-bg: #0F0F0F;
+$footer-bg: #0F0F0F;
+
+$header-height: 64px;
+$main-height: 1fr;
+$footer-height: 256px;
+
+// PAGE
+
+$page-padding: 0 145px;
+$redact-menu-weight: 364px;
+
+// Buttons
+
+$btn-width: 128px;
+$btn-padding: 6px 8px;
+
+// Gaps | Margins | Paddings //
+
+$big-gap: 32px;
+$standart-gap: 24px;
+$mini-gap: 12px;
+$tiny-gap: 6px;
+
+// EFFECTS
+
+$transition: all ease-in-out 0.3s;
+$shadow: 0 2px 4px rgba($color: #000000, $alpha: 0.64);
+$red-glow: 0 0 6px rgba($color: $secondary-color, $alpha: 1.0);
+$blue-glow: 0 0 6px rgba($color: #6378C1, $alpha: 1.0);
+
+// Different
+
+$fr: 1fr;
+$max: 100%;
+$m-center: 0 auto;

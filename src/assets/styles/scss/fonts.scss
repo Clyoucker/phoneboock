@@ -1,0 +1,33 @@
+@font-face {font-family: "EB-Garamond-Regular"; src: url("../../fonts/EBGaramond-Regular.ttf");}
+
+@font-face {font-family: "Eczar-Regular"; src: url("../../fonts/Eczar-Regular.ttf");}
+
+@font-face {font-family: "Fresca-Regular"; src: url("../../fonts/Fresca-Regular.ttf");}
+
+@font-face {font-family: "ExpletusSans-Regular"; src: url("../../fonts/ExpletusSans-Regular.ttf");}
+
+@font-face {font-family: "NanumGothic-Regular"; src: url("../../fonts/NanumGothic-Regular.ttf");}
+
+@font-face {font-family: "Inter-V"; src: url("../../fonts/Inter-V.ttf");}
+
+@font-face {font-family: "Jura"; src: url("../../fonts/Jura.ttf");}
+
+
+
+// Fonst Settings
+
+
+
+// ============================================================================================================================================================= //
+
+.title{
+    font-size: 1.8em;
+    font-weight: normal;
+    color: $secondary-color;
+}
+
+.section_title{
+    color: $additional-color;
+    font-size: calc(1em + 1vw); letter-spacing: calc(.1em); text-transform: uppercase; text-align: center;
+    width: $max;
+}

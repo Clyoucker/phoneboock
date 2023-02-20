@@ -1,0 +1,16 @@
+%button,
+%buttondAdd,
+%buttondChange,
+%buttondDel,
+%buttonPhoneboock,
+%phoneboock,
+.img,.social
+{transition: $transition;}
+
+%submit{&:hover{background-color: $secondary-color;}}
+
+%phoneboock{&:hover{background-color: rgba($color: $secondary-color, $alpha: .5);}}
+%buttonPhoneboock{&:hover{background-color: $additional-color; color: $general-color; box-shadow: 0 0 6px $additional-color;}}
+// %buttondAdd{&:hover{box-shadow: 0 0 6px $fixed-color;}}
+// %buttondChange{&:hover{box-shadow: 0 0 6px $improvement-color;}}
+%buttondDel{&:hover{background-color: $error-color;}}

@@ -1,0 +1,12 @@
+
+
+.button{
+    min-width: $btn-width;
+    padding: $btn-padding;
+    color: $additional-color;
+    cursor: pointer;
+}
+
+.button_add{background-color: $fixed-color;}
+.button_change{background-color: $improvement-color;}
+.button_del{background-color: $error-color;}
